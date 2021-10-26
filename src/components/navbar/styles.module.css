@@ -1,0 +1,22 @@
+.sideBar{
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    left: -270px;
+    background-color: black;
+}
+.toggleBtn{
+    position: absolute;
+    left: 100%;
+    top:30px;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.sideBarActive{
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background-color: black;
+}
