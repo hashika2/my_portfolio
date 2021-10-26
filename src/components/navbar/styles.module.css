@@ -3,7 +3,7 @@
     width: 270px;
     height: 100%;
     left: -270px;
-    background-color: black;
+    background-color: red;
 }
 .toggleBtn{
     position: absolute;
@@ -18,5 +18,5 @@
     position: fixed;
     width: 270px;
     height: 100%;
-    background-color: black;
+    background-color: red;
 }
