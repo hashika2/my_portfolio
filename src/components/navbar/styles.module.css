@@ -1,13 +1,25 @@
-.sideBar{
+/* .sideBar{
     position: fixed;
     width: 270px;
     height: 100%;
     left: -270px;
     background-color: red;
-}
+    z-index: 1;
+    transition: 0.5s;
+    display: inline-block;
+} */
 .toggleBtn{
     position: absolute;
-    left: 100%;
+    left:0px;
+    top:30px;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.toggleBtnActive{
+    position: absolute;
+    left:271px;
     top:30px;
     font-size: large;
     padding: 10px;
@@ -20,3 +32,4 @@
     height: 100%;
     background-color: red;
 }
+

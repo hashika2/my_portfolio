@@ -1,5 +1,6 @@
 import React, { FC,useState,useEffect } from 'react';
 import {MenuOutlined} from '@ant-design/icons';
+import {Drawer} from 'antd'
 import styles from './styles.module.css';
 
 const getWindowDimensions = () : boolean => {
@@ -31,9 +32,19 @@ const LeftNavBar:FC = () :JSX.Element => {
 
     return (
         
-        <div className={visible? styles.sideBarActive :styles.sideBar}>
-        <span className={`xl:invisible ${styles.toggleBtn}`} onClick={showDrawer}><MenuOutlined/></span>
-        </div>
+        // <div className={visible? styles.sideBarActive :styles.sideBar}>
+        // <span className={`xl:invisible ${styles.toggleBtn}`} onClick={showDrawer}><MenuOutlined/></span>
+        // </div>
+        <div className={styles.leftDrawer}>
+          
+          <span className={visible? `xl:invisible ${styles.toggleBtnActive}` :styles.toggleBtn} onClick={showDrawer}><MenuOutlined/></span> 
+        <Drawer placement="left" visible={visible} mask={false} closable={false} width='270px'>
+        
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+      </Drawer>
+      </div>
     )
 }
 

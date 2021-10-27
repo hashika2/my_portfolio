@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
 
-interface ITitleProps {
+interface IHeaderTitleProps {
     title: string
   }
 
-const Title :FC<ITitleProps> = ({title}) :JSX.Element => {
+const HeaderTitle :FC<IHeaderTitleProps> = ({title}) :JSX.Element => {
     return (
         <div className='mt-24 m-3'>
             <p className='text-4xl mb-2 text-white'>{title}</p>
@@ -13,4 +13,4 @@ const Title :FC<ITitleProps> = ({title}) :JSX.Element => {
     )
 }
 
-export default Title
+export default HeaderTitle;

@@ -1,13 +1,13 @@
-import Title from '../src/components/common/Title';
+import HeaderTitle from '../src/components/common/HeaderTitle';
 import React, { FC } from 'react'
-import EducationTimeLine from '../src/components/education/EducationTimeLine';
+import EducationCard from '../src/components/education/EducationCard';
 
 const education :FC = () :JSX.Element => {
     return (
         <div>
-            <Title title="ECUCATION"/>
+            <HeaderTitle title="ECUCATION"/>
             <div>
-                <EducationTimeLine/>
+                <EducationCard/>
             </div>
         </div>
     )

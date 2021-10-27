@@ -21,7 +21,9 @@ a {
   height: 5px;
   width: 100px
 }
-
+/* .ant-drawer-mask{
+  opacity: 0 !important;
+} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

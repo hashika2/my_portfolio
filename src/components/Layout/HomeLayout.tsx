@@ -9,8 +9,11 @@ const HomeLayout: FC = ({children}) :JSX.Element => {
             <div>
                 <LeftNavBar/>
             </div>
-            <div className='col-span-5 xl:col-span-4 h-screen'>
+            <div className='col-span-5 xl:col-span-4 h-full bg-gray-300'>
+                <>
                 {children}
+                </>
+               
             </div>
         </div>
         </>
