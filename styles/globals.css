@@ -15,9 +15,12 @@ a {
 * {
   box-sizing: border-box;
 } */
-
+.main{
+  background-color: #10121b;
+}
 .titleUnderline {
-  background-color:blue;
+  /* background-color:#14EC9A; */
+  background-color: #0EC469;
   height: 5px;
   width: 100px
 }
