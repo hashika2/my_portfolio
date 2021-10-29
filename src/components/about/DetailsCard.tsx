@@ -5,7 +5,7 @@ import {DownloadOutlined} from '@ant-design/icons';
 const DetailsCard: FC = () :JSX.Element => {
     return (
         <div>
-            <p className='text-3xl text-white'>My Name is Anjana Shakthi</p>
+            <p className='fontSub1'>My Name is Anjana Shakthi</p>
             <p className='text-lg text-white'>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
             <div className='text-xl text-white mb-5'>
             <div className='grid grid-cols-5 my-3'>
@@ -34,7 +34,7 @@ const DetailsCard: FC = () :JSX.Element => {
             </div>
             
             </div>
-            <Button type="primary" icon={<DownloadOutlined />} size='large'>
+            <Button icon={<DownloadOutlined />} size='large' type="primary" style={{ background: "rgba(16, 185, 129)"}}>
                 Download CV
             </Button>
         </div>

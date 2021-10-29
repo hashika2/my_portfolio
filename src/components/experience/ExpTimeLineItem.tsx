@@ -9,10 +9,10 @@ interface IExpTimeLineItem {
 const ExpTimeLineItem: FC<IExpTimeLineItem> = ({duration,position,jobType}) :JSX.Element => {
     return (
         <div className='grid grid-cols-5'>
-            <div className='text-md'>{duration}</div>
+            <div className='fontxl'>{duration}</div>
             <div className='col-span-4'>
-                <p className='text-lg mb-1'>{position}</p>
-                <p className='text-md'>{jobType}</p>
+                <p className='font2xl mb-1'>{position}</p>
+                <p className='fontlg'>{jobType}</p>
             </div>
         </div>
     )

@@ -6,8 +6,8 @@ interface IHeaderTitleProps {
 
 const HeaderTitle :FC<IHeaderTitleProps> = ({title}) :JSX.Element => {
     return (
-        <div className='mt-24 m-3'>
-            <p className='text-4xl mb-2 text-white'>{title}</p>
+        <div className='mt-24 mb-12'>
+            <p className='fontTitle mb-2'>{title}</p>
             <div className='titleUnderline'></div>
         </div>
     )

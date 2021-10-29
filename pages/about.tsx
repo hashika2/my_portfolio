@@ -8,9 +8,11 @@ const About:FC = () :JSX.Element => {
         <div className='h-screen'>
             <HeaderTitle title="ABOUT ME"/>
             <div className='grid grid-cols-3' >
-                <div className='col-span-3 lg:col-span-1 flex items-center justify-center'>
-                    <Image alt='profile' width={300} preview={false}
+                <div className='col-span-3 lg:col-span-1 flex items-center'>
+                    <div className='bg-green-500 w-80 p-5 flex justify-end rounded-r-full'>
+                    <Image alt='profile' width={300} preview={false} style={{borderRadius:"50%"}}
                         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" />
+                    </div>
                 </div>
                 <div className='col-span-3 lg:col-span-2 flex items-center'>
                     <DetailsCard/>

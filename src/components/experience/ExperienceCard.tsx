@@ -12,12 +12,12 @@ interface IExperienceCard {
 const ExperienceCard :FC<IExperienceCard> = ({company,place,jobs}) :JSX.Element => {
     return (
         <div className='p-5'>
-            <p className='text-2xl  mb-1'>{company}</p>
-            <p className='text-md'>{place}</p>
+            <p className='font3xl  mb-1'>{company}</p>
+            <p className='fontxl'>{place}</p>
             <Timeline>
                 {jobs.map((item,index) => {
                     return(
-                        <Timeline.Item key={index}>
+                        <Timeline.Item key={index} color="green">
                             <ExpTimeLineItem
                                 duration={item.duration}
                                 position={item.position}

@@ -10,11 +10,11 @@ interface IEducationDetails {
 const EduTimeLineItem :FC <IEducationDetails> = ({duration,degree,place,result}) :JSX.Element => {
     return (
             <div className='grid grid-cols-5'>
-                        <div className='text-xl'>{duration}</div>
+                        <div className='fontxl'>{duration}</div>
                         <div className='col-span-4'>
-                            <p className='text-xl'>{degree}</p>
-                            <p className='text-lg'>{place}</p>
-                            <p>{result}</p>
+                            <p className='font2xl'>{degree}</p>
+                            <p className='fontxl'>{place}</p>
+                            <p className='fontlg'>{result}</p>
                         </div>
                     </div>
     )

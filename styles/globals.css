@@ -16,7 +16,50 @@ a {
   box-sizing: border-box;
 } */
 .main{
-  background-color: #10121b;
+  /* background-color: #10121b; */
+  background-color: rgb(14, 30, 37);
+}
+.fontTitle{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+}
+.font3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+}
+.font2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: inherit;
+  font-weight: 400;
+  color: white;
+}
+.fontxl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: inherit;
+  font-weight: 400;
+  color: white;
+}
+.fontlg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: inherit;
+  font-weight: 400;
+  color: white;
+}
+.fontmd{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 300;
+  color: white;
 }
 .titleUnderline {
   /* background-color:#14EC9A; */
