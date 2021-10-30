@@ -27,14 +27,9 @@ export const experienceDetails = [
 
 
 export const skillDetails = [
-    'Javascript', 
-    'Typescript', 
-    'ReactJs', 
-    'NextJs', 
-    'NodeJs(Expressjs)',
-    'NestJs',
-    'tailwindcss',
-    'serverless',
-    'MongoDB',
-    'MySQL'
+    { skill1 :'Javascript', skill2:'Typescript'}, 
+    {skill1: 'ReactJs', skill2: 'NextJs'}, 
+    {skill1: 'NodeJs(Expressjs)',skill2: 'NestJs'},
+    {skill1: 'tailwindcss',skill2: 'serverless'},
+    {skill1: 'MongoDB',skill2: 'MySQL'}
 ]

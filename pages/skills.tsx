@@ -7,14 +7,19 @@ const Skills :FC = () :JSX.Element => {
     return (
         <div>
             <HeaderTitle title="SKILLS"/>
-            <div className='flex items-center justify-center my-10'>
-                <div className='grid grid-cols-2 w-3/4'>
+                <div className='px-3'>
                     {skillDetails.map( (skill,index) => {
                         return(
-                            <SkillItem key={index} skill={skill} />
+                            <div className='grid grid-cols-2' key={index}>
+                                <div className='col-span-2 md:col-span-1'>
+                                    <SkillItem  skill={skill.skill1} />
+                                </div>
+                                <div className='col-span-2 md:col-span-1'>
+                                    <SkillItem skill={skill.skill2} />
+                                </div>
+                            </div>   
                         )
                     })}
-                </div>
             </div>
         </div>
     )
