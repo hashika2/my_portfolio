@@ -33,3 +33,19 @@ export const skillDetails = [
     {skill1: 'tailwindcss',skill2: 'serverless'},
     {skill1: 'MongoDB',skill2: 'MySQL'}
 ]
+
+
+export const projectDetails = [
+    {
+        imageUrl: '',
+        name: "Quantamount",
+        description: 'This application is created by the readblocks company to automate the BOQ process. we used react and nodejs for this project. Also, we used MySQL as a database and used sequelize ORM to manage the database.',
+        technologies: ['React', 'Nodejs(Expressjs)', 'Redux']
+    },
+    {
+        imageUrl: '',
+        name: "Portfolio",
+        description: '',
+        technologies: ['Nextjs','antDesign']
+    }
+]

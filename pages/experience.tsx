@@ -10,7 +10,7 @@ const experience = () => {
            <HeaderTitle title="EXPERIENCE"/>
            {experienceDetails.map((exp,index) => {
                return(
-                <div key={index} className='mx-10'>
+                <div key={index} className='mx-5'>
                 <ExperienceCard
                     company={exp.company}
                     place={exp.place}
