@@ -8,6 +8,9 @@
     transition: 0.5s;
     display: inline-block;
 } */
+.leftDrawer .ant-drawer-body{
+    background-color: black;
+}
 .toggleBtn{
     position: absolute;
     left:0px;
@@ -33,3 +36,11 @@
     background-color: red;
 }
 
+.ant-menu-item-selected.a{
+    background-color: #0EC469 !important;
+    color: red;
+  }
+
+  .a{
+      color: red !important;
+  }

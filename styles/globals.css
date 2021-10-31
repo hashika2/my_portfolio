@@ -19,6 +19,14 @@ a {
   /* background-color: #10121b; */
   background-color: rgb(14, 30, 37);
 }
+.ant-menu-item-selected{
+  background-color: rgb(16, 185, 129) !important;
+}
+
+.ant-menu-item:hover{
+  background-color: rgba(16, 185, 129,0.5) !important;
+}
+
 .fontTitle{
   font-size: 2.25rem;
   line-height: 2.5rem;
