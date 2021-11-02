@@ -10,7 +10,7 @@ const About:FC = () :JSX.Element => {
             <div className='grid grid-cols-3 mb-9' >
                 <div className='col-span-3 lg:col-span-1 flex items-center'>
                     <div className='bg-green-500 w-80 p-5 flex justify-end rounded-r-full'>
-                    <Image alt='profile' width={300} preview={false} style={{borderRadius:"50%"}}
+                        <Image alt='profile' width={300} preview={false} style={{borderRadius:"50%"}}
                         src="https://res.cloudinary.com/ashakthi/image/upload/v1635839334/samples/protfolio/about_odyeo9.png" />
                     </div>
                 </div>

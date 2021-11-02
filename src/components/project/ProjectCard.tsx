@@ -18,11 +18,11 @@ const ProjectCard :FC = () :JSX.Element => {
                                     height="12rem"
                                     preview={false}
                                     />
-                                    <div className='space-x-2'>
-                                        <div className='inline-block'>{project?.gitHubUrl && <a href={project?.gitHubUrl}><GithubOutlined style={{ fontSize: '25px', color: 'white' }} /></a>}</div>
-                                        <div className='inline-block'>{project?.viewUrl && <a href={project?.viewUrl}><EyeOutlined style={{ fontSize: '25px', color: 'white' }}/></a>}</div>
-                                    </div>
+                                <div className='space-x-2'>
+                                    <div className='inline-block'>{project?.gitHubUrl && <a href={project?.gitHubUrl}><GithubOutlined style={{ fontSize: '25px', color: 'white' }} /></a>}</div>
+                                    <div className='inline-block'>{project?.viewUrl && <a href={project?.viewUrl}><EyeOutlined style={{ fontSize: '25px', color: 'white' }}/></a>}</div>
                                 </div>
+                            </div>
                             <div className='col-span-3 md:col-span-2 m-3'>
                                 <div className='h-4/5'>
                                     <p className='fontlg'>{project.name}</p>
@@ -37,7 +37,7 @@ const ProjectCard :FC = () :JSX.Element => {
                                     })}
                                 </div>
                             </div>
-            </div>
+                        </div>
                     )
                 })
             }

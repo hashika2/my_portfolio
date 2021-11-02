@@ -13,7 +13,7 @@ const ExperienceCard :FC<IExperienceCard> = ({company,place,jobs}) :JSX.Element 
     return (
         <div className='p-5'>
             <p className='font3xl  mb-1'>{company}</p>
-            <p className='fontxl'>{place}</p>
+            <p className='fontlg'>{place}</p>
             <Timeline>
                 {jobs.map((item,index) => {
                     return(

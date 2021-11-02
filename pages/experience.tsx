@@ -11,15 +11,14 @@ const experience = () => {
            {experienceDetails.map((exp,index) => {
                return(
                 <div key={index} className='mx-5'>
-                <ExperienceCard
-                    company={exp.company}
-                    place={exp.place}
-                    jobs={exp.job}
-                />
+                    <ExperienceCard
+                        company={exp.company}
+                        place={exp.place}
+                        jobs={exp.job}
+                    />
                 </div>
                )
            })}
-           
         </div>
     )
 }

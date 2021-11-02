@@ -1,4 +1,4 @@
-import React, { FC,useState,useEffect } from 'react';
+import React, { FC} from 'react';
 import LeftNavBar from '../navbar/LeftNavBar';
 
 const HomeLayout: FC = ({children}) :JSX.Element => {

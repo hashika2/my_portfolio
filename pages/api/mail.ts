@@ -1,24 +1,22 @@
 import sendgrid from '@sendgrid/mail';
 import { NextApiRequest, NextApiResponse } from 'next';
 
-sendgrid.setApiKey('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');
+sendgrid.setApiKey('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');
 
 const mailService = async (req:NextApiRequest,res:NextApiResponse) => {
     const {name,email,subject,message} = req.body;
+    console.log('----------------',req.body)
     try {
-        await sendgrid.send({
+       const r = await sendgrid.send({
           to: "anjanashakthi.ja@gmail.com", // Your email where you'll receive emails
           from: "anjanashakthi114@gmail.com", // your website email address here
           subject: 'CONTACT ME(portfolio web)',
-          html: `<div>
-                    <p>Name: ${name}</p>
-                    <p>Email: ${email}</p>
-                    <p>Subject: ${subject}</p>
-                    <p>Message: ${message}</p>
-                </div>`,
+          text: 'aanaa'
         });
 
-        res.json({message: 'email has been sent'})
+        console.log('rrrrr',r);
+
+        res.send({status: 'success',message: 'email has been sent'})
       } catch (error) {
         console.log(error);
         

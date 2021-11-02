@@ -1,6 +1,4 @@
 import React, { FC } from 'react';
-import { PhoneOutlined } from '@ant-design/icons';
-
 interface IDetailsItem{
     title: string,
     data: string,

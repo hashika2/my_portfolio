@@ -17,12 +17,6 @@ const SkillItem :FC<ISkillItem> = ({skill,imageUrl}) :JSX.Element => {
                         src={imageUrl} />
                 </div>
             </div>
-            {/* <div className='space-x-4'>
-                <div className='titleUnderline inline-block'></div>
-                <div className='titleUnderline inline-block'></div>
-                <div className='titleUnderline inline-block'></div>
-            </div> */}
-            
         </div>
     )
 }

@@ -1,13 +1,3 @@
-/* .sideBar{
-    position: fixed;
-    width: 270px;
-    height: 100%;
-    left: -270px;
-    background-color: red;
-    z-index: 1;
-    transition: 0.5s;
-    display: inline-block;
-} */
 .leftDrawer .ant-drawer-body{
     background-color: black;
 }
@@ -29,18 +19,3 @@
     color: white;
     background-color: black;
 }
-.sideBarActive{
-    position: fixed;
-    width: 270px;
-    height: 100%;
-    background-color: red;
-}
-
-.ant-menu-item-selected.a{
-    background-color: #0EC469 !important;
-    color: red;
-  }
-
-  .a{
-      color: red !important;
-  }
