@@ -14,7 +14,7 @@ const EduTimeLineItem :FC <IEducationDetails> = ({duration,degree,place,result})
                         <div className='col-span-4'>
                             <p className='font2xl'>{degree}</p>
                             <p className='fontxl'>{place}</p>
-                            <p className='fontlg'>{result}</p>
+                            <p className='fontmd'>{result}</p>
                         </div>
                     </div>
     )

@@ -45,9 +45,9 @@ const LeftNavBar:FC = () :JSX.Element => {
           <div>
             <div className='my-5'>
             <Image alt='profile' width={200} preview={false} style={{borderRadius:"50%"}}
-                        src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" />
+                        src="https://res.cloudinary.com/ashakthi/image/upload/v1635785771/samples/protfolio/profile3_yuc7vr.png" />
             </div>
-          
+          <hr className='mb-5'></hr>
           <Menu
             defaultSelectedKeys={['/']}
             mode="inline"

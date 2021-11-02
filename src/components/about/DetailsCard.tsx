@@ -6,7 +6,11 @@ const DetailsCard: FC = () :JSX.Element => {
     return (
         <div>
             <p className='font3xl'>My Name is Anjana Shakthi</p>
-            <p className='fontlg'>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
+            <p className='fontlg'>
+                I&lsquo; m a final year Software Engineering Undergraduate from the University of Kelaniya Sri Lanka.
+                I see myself as a full-stack web developer Mostly Specialized in JavaScript & TypeScript.My greatest passion in life is 
+                to do a better service for the industry and also the society.
+            </p>
             <div className='fontxl mb-5'>
             <div className='grid grid-cols-4 my-3'>
                 <div className='col-span-1 '>Full Name</div>
@@ -34,9 +38,9 @@ const DetailsCard: FC = () :JSX.Element => {
             </div>
             
             </div>
-            <Button icon={<DownloadOutlined />} size='large' type="primary" style={{ background: "rgba(16, 185, 129)"}}>
+            {/* <Button icon={<DownloadOutlined />} size='large' type="primary" style={{ background: "rgba(16, 185, 129)"}}>
                 Download CV
-            </Button>
+            </Button> */}
         </div>
     )
 }

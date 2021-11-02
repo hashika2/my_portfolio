@@ -17,7 +17,7 @@ const ContactDetails :FC = () :JSX.Element => {
                     <DetailsItem
                       title="Email"
                       icon = {<MailOutlined style={{fontSize:'30px', color: 'white'}}/>}
-                      data = "anjanashakthi95@gmail.com"
+                      data = "anjanashakthi.ja@gmail.com"
                       />
                     </div>
                  

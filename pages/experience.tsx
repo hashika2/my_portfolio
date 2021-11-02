@@ -2,7 +2,7 @@
 import React from 'react'
 import HeaderTitle from '../src/components/common/HeaderTitle'
 import ExperienceCard from '../src/components/experience/ExperienceCard'
-import { experienceDetails } from '../src/utils/experience'
+import { experienceDetails } from '../src/utils/commenDetails'
 
 const experience = () => {
     return (

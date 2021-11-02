@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import {Timeline} from 'antd';
 import EduTimeLineItem from './EduTimeLineItem';
-import {educationDetails} from '../../utils/education';
+import {educationDetails} from '../../utils/commenDetails';
 
 
 const EducationCard :FC = () :JSX.Element => {

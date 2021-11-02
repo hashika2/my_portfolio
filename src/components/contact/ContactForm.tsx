@@ -4,20 +4,31 @@ import {Form,Input,Button} from 'antd';
 const { TextArea } = Input;
 
 const ContactForm = () => {
-  const [name,setName] = useState<string|null>(null);
-  const [email,setEmail] = useState<string|null>(null);
-  const [subject,setSubject] = useState<string|null>(null);
-  const [message,setMessage] = useState<string|null>(null);
   const [form] = Form.useForm();
 
-  const onSubmit = (value:any) => {
+  const onSubmit = async (value:any) => {
     const payload = {
       name: value.name,
       email: value.email,
       subject: value.subject,
       message: value.message
     }
-    console.log(payload);
+    try {
+      const res = await fetch("/api/mail", {
+        body: JSON.stringify({
+          email: value.email,
+          name: value.name,
+          subject: value.subject,
+          message: value.message,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      });
+    } catch (error) {
+      console.log(error)
+    }
   }
 
     return (
@@ -41,7 +52,7 @@ const ContactForm = () => {
         <Input placeholder='Enter your name'/>
       </Form.Item>
       <Form.Item
-        name="username"
+        name="email"
         rules={[{ required: true, message: 'Please enter your email' }]}
       >
         <Input placeholder='Enter your email'/>
