@@ -7,7 +7,6 @@ const projects :FC = () :JSX.Element => {
         <div>
             <HeaderTitle title="PROJECTS"/>
             <ProjectCard/>
-            <ProjectCard/>
         </div>
     )
 }

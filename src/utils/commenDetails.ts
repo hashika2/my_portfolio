@@ -53,15 +53,44 @@ export const skillDetails = [
 
 export const projectDetails = [
     {
-        imageUrl: '',
-        name: "Quantamount",
-        description: 'This application is created by the readblocks company to automate the BOQ process. we used react and nodejs for this project. Also, we used MySQL as a database and used sequelize ORM to manage the database.',
-        technologies: ['React', 'Nodejs(Expressjs)', 'Redux']
+        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635840407/samples/protfolio/moviewsite_hzaxmx.png',
+        name: "htMovies Site",
+        description: 'This is a group project. The framework used in this application is NextJs with Typescript. MovieDB used to get the movie details and Ant Design and taildwincss used to desing the UI.',
+        technologies: ['NextJs','Ant Design','Tailwindcss'],
+        viewUrl: 'https://www.htmovies.net/',
+        gitHubUrl: null
     },
     {
-        imageUrl: '',
-        name: "Portfolio",
-        description: '',
-        technologies: ['Nextjs','antDesign']
-    }
+        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635839953/samples/protfolio/portfolio_ouxqjw.png',
+        name: "Portfolio WebApp",
+        description: "This is My Personal website. NextJs is the framework used in this application. This application hasn't a back-end and SendGrid is the email service that is used in this application. Ant Design and tailwindcss are used to design UI.",
+        technologies: ['NextJs','Ant Design','Tailwindcss'],
+        viewUrl: '',
+        gitHubUrl: 'https://github.com/anjana6/portfolio-V2'
+    },
+    {
+        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635839991/samples/protfolio/QuantAmount_nas6on.png',
+        name: "Quantamount",
+        description: 'This application is created by the readblocks company to automate the BOQ process. React and Nodejs are the technologies and MySQL with sequelize ORM is the database system  used in this application.I mainly worked on the backend side of this application',
+        technologies: ['React', 'NodeJs(Expressjs)', 'Ant Design'],
+        viewUrl: 'https://app.quantamount.com/',
+        gitHubUrl: null
+    },
+    {
+        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635840015/samples/protfolio/chatApp_texbrx.png',
+        name: "Web Chat-APP",
+        description: 'This is a small chat application. React, Redux and Nodejs are the technologies that I am using in this application. Socket.io is the special library used in this application. That is used to manage the real-time thing. I used the MongoDB database system to store user details and user messages.',
+        technologies: ['ReactJs','NodeJs(expressjs)','Redux','Socket.io','Bootstrap'],
+        viewUrl: null,
+        gitHubUrl: 'https://github.com/anjana6/Web-ChatApp'
+    },
+    {
+        imageUrl: 'https://res.cloudinary.com/ashakthi/image/upload/v1635840013/samples/protfolio/librarySystem_o2qt0p.png',
+        name: "Library Management System",
+        description: 'This application is a small Library Management system. It includes only basic functionality. React, Redux and Nodejs are the technologies that I am using in this application. Also, used MongoDB as a database management system in this application.',
+        technologies: ['ReactJs','NodeJs(expressjs)','Redux','Bootstrap'],
+        viewUrl: null,
+        gitHubUrl: 'https://github.com/anjana6/Library-Management-System'
+    },
+    
 ]
