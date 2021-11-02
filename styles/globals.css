@@ -15,6 +15,16 @@ a {
 * {
   box-sizing: border-box;
 } */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} */
+::-webkit-scrollbar-thumb {
+  background: rgb(16, 185, 129); 
+}
+
 .mainhome{
   background-image: linear-gradient(rgba(14, 30, 37, 0.8), rgba(14, 30, 37, 0.5)),url('https://res.cloudinary.com/ashakthi/image/upload/v1635835584/samples/protfolio/background5_nps3d9.gif');
   background-repeat: no-repeat;
