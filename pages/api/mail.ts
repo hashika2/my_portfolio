@@ -1,7 +1,7 @@
 import sendgrid from '@sendgrid/mail';
 import { NextApiRequest, NextApiResponse } from 'next';
 
-sendgrid.setApiKey('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');
+sendgrid.setApiKey('');
 
 const mailService = async (req:NextApiRequest,res:NextApiResponse) => {
     const {name,email,subject,message} = req.body;
