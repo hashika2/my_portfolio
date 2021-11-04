@@ -11,7 +11,7 @@ const contact :FC = () :JSX.Element => {
                 <div className='flex items-center'>
                     <div className='hidden md:inline-block'>                
                         <div className='bg-green-500 w-80 p-5 flex justify-end rounded-r-full'>
-                            <Image alt='profile' width={300} preview={false} style={{borderRadius:"50%"}}
+                            <Image alt='contact me' width={300} preview={false} style={{borderRadius:"50%"}}
                             src="https://res.cloudinary.com/ashakthi/image/upload/v1635839208/samples/protfolio/1_stisfr.png" />
                         </div>
                     </div>

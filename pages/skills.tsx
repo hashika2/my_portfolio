@@ -12,10 +12,16 @@ const Skills :FC = () :JSX.Element => {
                         return(
                             <div className='grid grid-cols-2' key={index}>
                                 <div className='col-span-2 md:col-span-1'>
-                                    <SkillItem  skill={skill.skill1} imageUrl ={skill.skill1Url} />
+                                    <SkillItem  
+                                        skill={skill.skill1} 
+                                        imageUrl ={skill.skill1Url} 
+                                        />
                                 </div>
                                 <div className='col-span-2 md:col-span-1'>
-                                    <SkillItem skill={skill.skill2} imageUrl={skill.skill2Url} />
+                                    <SkillItem 
+                                        skill={skill.skill2} 
+                                        imageUrl={skill.skill2Url}
+                                        />
                                 </div>
                             </div>   
                         )

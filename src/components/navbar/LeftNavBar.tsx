@@ -40,7 +40,7 @@ const LeftNavBar:FC = () :JSX.Element => {
           <Drawer placement="left" visible={visible} mask={false} closable={false} width='270px' bodyStyle={{backgroundColor:'#001529'}}>
             <div>
               <div className='my-5'>
-                <Image alt='profile' width={200} preview={false} style={{borderRadius:"50%"}}
+                <Image alt='Anjana Shakthi' width={200} preview={false} style={{borderRadius:"50%"}}
                           src="https://res.cloudinary.com/ashakthi/image/upload/v1635785771/samples/protfolio/profile3_yuc7vr.png" />
               </div>
               <hr className='mb-5'></hr>

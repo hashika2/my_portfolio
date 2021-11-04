@@ -28,8 +28,10 @@ export const experienceDetails = [
 
 export const skillDetails = [
     { 
-        skill1 :'Javascript', skill1Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785755/samples/protfolio/javascript_wyku8h.png', 
-        skill2:'Typescript', skill2Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785711/samples/protfolio/typescript_yon21g.png'
+        skill1 :'Javascript', 
+        skill1Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785755/samples/protfolio/javascript_wyku8h.png',
+        skill2:'Typescript', 
+        skill2Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785711/samples/protfolio/typescript_yon21g.png'
     }, 
     {
         skill1: 'ReactJs', skill1Url: 'https://res.cloudinary.com/ashakthi/image/upload/v1635785726/samples/protfolio/react_rcfnhv.png' ,

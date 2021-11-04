@@ -7,8 +7,8 @@ import HomeLayout from '../src/components/Layout/HomeLayout';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <HomeLayout>
-  <Component {...pageProps} />
-  </HomeLayout>
+      <Component {...pageProps} />
+    </HomeLayout>
   )
 }
 export default MyApp

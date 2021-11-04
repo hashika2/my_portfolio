@@ -13,7 +13,7 @@ const ProjectCard :FC = () :JSX.Element => {
                             <div className='mx-2 col-span-3 md:col-span-1'>
                                 <Image 
                                     src={project.imageUrl} 
-                                    alt="projectImage"
+                                    alt={project.name}
                                     width= "100%"
                                     height="12rem"
                                     preview={false}
