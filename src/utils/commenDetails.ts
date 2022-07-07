@@ -11,16 +11,15 @@ export const experienceDetails = [
         company: 'App Mart',
         place: 'UK',
         job: [
-            {duration: 'Oct 2021 – Present', position:'Associate SoftwareEngineer', jobType: 'Part-time'}
+            {duration: 'August 2021 – Present', position:'Associate SoftwareEngineer', jobType: 'Full-time'}
         ]
     },
     {
         company: 'Redblocks Technologies (Private) Limited',
         place: 'Sri Lanka',
         job: [
-            {duration: 'Oct 2021 – Present', position:'Associate SoftwareEngineer', jobType: 'Part-time'},
-            {duration: 'May 2021 – Oct 2021', position:'Associate SoftwareEngineer', jobType: 'Full-time'},
-            {duration: 'Oct 2020 – May 2021', position:'Intern SoftwareEngineer', jobType: 'Full-time'},
+            {duration: 'April 2021 – August 2021', position:'Associate SoftwareEngineer', jobType: 'Full-time'},
+            {duration: 'Oct 2020 – April 2021', position:'Intern SoftwareEngineer', jobType: 'Full-time'},
         ]
     }
 ]
