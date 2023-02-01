@@ -5,7 +5,7 @@ const DetailsCard: FC = () :JSX.Element => {
         <div>
             <p className='font3xl'>My Name is Anjana Shakthi</p>
             <p className='fontlg'>
-                I&lsquo; m a final year Software Engineering Undergraduate from the University of Kelaniya Sri Lanka.
+                I&lsquo; m graduate software engineer from the University of Kelaniya Sri Lanka. I have a 2+ years of extensive experience in Software Development as a software engineer.
                 I see myself as a full-stack web developer Mostly Specialized in JavaScript & TypeScript.My greatest passion in life is 
                 to do a better service for the industry and also the society.
             </p>

@@ -8,18 +8,25 @@ export const educationDetails = [
 
 export const experienceDetails = [
     {
-        company: 'App Mart',
-        place: 'UK',
+        company: 'Inova IT systems',
+        place: 'Colombo, Sri Lanka',
         job: [
-            {duration: 'August 2021 – Present', position:'Associate SoftwareEngineer', jobType: 'Full-time'}
+            {duration: 'August 2022 – Present', position:'Software Engineer', jobType: 'Full-time'}
+        ]
+    },
+    {
+        company: 'Mobile App Mart',
+        place: 'London,UK',
+        job: [
+            {duration: 'Aug. 2021 – July 2022', position:'Software Engineer', jobType: 'Full-time'}
         ]
     },
     {
         company: 'Redblocks Technologies (Private) Limited',
-        place: 'Sri Lanka',
+        place: 'Colombo, Sri Lanka',
         job: [
-            {duration: 'April 2021 – August 2021', position:'Associate SoftwareEngineer', jobType: 'Full-time'},
-            {duration: 'Oct 2020 – April 2021', position:'Intern SoftwareEngineer', jobType: 'Full-time'},
+            {duration: 'May 2021 – July 2021', position:'Associate Software Engineer', jobType: 'Full-time'},
+            {duration: 'Oct. 2020 – April 2021', position:'Intern Software Engineer', jobType: 'Full-time'},
         ]
     }
 ]

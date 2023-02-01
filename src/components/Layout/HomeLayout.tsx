@@ -19,8 +19,8 @@ const HomeLayout: FC = ({children}) :JSX.Element => {
                 <meta property="og:description" content="full-stack web developer Mostly Specialized in JavaScript & TypeScript" name="description" />
                 <meta property="og:title" content="Anjana Shakthi | Software Engineer(Full Stack Web Developer)" />
             </Head>
-        <div className="grid grid-cols-5">
-            <div>
+        <div className="grid grid-cols-5 main h-screen">
+            <div className='xl:col-span-1 main'>
                 <LeftNavBar/>
             </div>
             <div className='col-span-5 xl:col-span-4 h-full main px-5'>
