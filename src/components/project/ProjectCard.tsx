@@ -9,10 +9,10 @@ const ProjectCard :FC = () :JSX.Element => {
             {
                 projectDetails.map((project,index) => {
                     return(
-                        <div className='grid grid-cols-3 border-2 p-3 m-3 border-green-500 rounded-lg' key={index}>
+                        <div className='grid grid-cols-3 border-2 p-3 m-3 border-pink-500 rounded-lg' key={index}>
                             <div className='mx-2 col-span-3 md:col-span-1'>
                                 <Image 
-                                    src={project.imageUrl} 
+                                    src={project.imageUrl}
                                     alt={project.name}
                                     width= "100%"
                                     height="12rem"
@@ -31,7 +31,7 @@ const ProjectCard :FC = () :JSX.Element => {
                                 <div className='titleUnderline'></div>
                                 <div className='space-x-2 my-3'>
                                     {project.technologies.map((tech,index) => {
-                                        return(
+                                        return( 
                                             <div className='inline-block fontmd border-r-2 border-green-500 px-2' key={index}>{tech}</div>
                                         )
                                     })}

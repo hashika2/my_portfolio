@@ -10,7 +10,7 @@ const DetailsItem :FC<IDetailsItem> = ({title,data,icon}) :JSX.Element => {
         <div className='bg-gray-800 m-2'>
             <div className='grid grid-cols-4 p-3'>
                 <div className='flex justify-center'>
-                    <div className='border-2 border-green-500 p-3 flex justify-center items-center w-20 h-20'>
+                    <div className='border-2 border-pink-500 p-3 flex justify-center items-center w-20 h-20'>
                         {icon}
                     </div>
                 </div>

@@ -8,17 +8,17 @@ const ContactDetails :FC = () :JSX.Element => {
           <DetailsItem
             title="Phone"
             icon = {<PhoneOutlined style={{fontSize:'30px', color: 'white'}} />}
-            data = "+9471 2073 771"
+            data = "+9477 4164 979"
             />
           <DetailsItem
             title="Email"
             icon = {<MailOutlined style={{fontSize:'30px', color: 'white'}}/>}
-            data = "anjanashakthi.ja@gmail.com"
+            data = "m.g.hashikamaduranga@gmail.com"
             />
           <DetailsItem
             title="Address"
             icon = {<EnvironmentOutlined style={{fontSize:'30px', color: 'white'}}/>}
-            data = "66/A, Rubberhena, Puwakwatta, Kamburugamuwa, Matara, Sri Lanka."
+            data = "188/A, Bentota Kanda, Udubettawa, Thalgampala, Galle, Sri Lanka."
             />
         </div>
     )

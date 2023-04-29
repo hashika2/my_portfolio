@@ -10,7 +10,7 @@ const EducationCard :FC = () :JSX.Element => {
             <Timeline>
                 {educationDetails.map( (edu,index) => {
                     return(
-                        <Timeline.Item key={index} color="green">
+                        <Timeline.Item key={index} color="pink">
                             <EduTimeLineItem 
                                 duration= {edu.duration}
                                 degree={edu.degree}
