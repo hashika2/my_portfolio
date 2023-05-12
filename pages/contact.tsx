@@ -4,6 +4,8 @@ import HeaderTitle from '../src/components/common/HeaderTitle'
 import ContactDetails from '../src/components/contact/ContactDetails'
 
 const contact :FC = () :JSX.Element => {
+    console.log('2222222222');
+    console.log('3333333333');
     return (
         <div>
             <HeaderTitle title="CONTACT ME"/>
